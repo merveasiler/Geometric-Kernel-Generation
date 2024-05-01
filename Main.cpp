@@ -21,9 +21,9 @@ int main()
 		cout << "Enter the input path (.off/.obj): ";		cin >> input_path;		cout << endl;
 
 		if (command_type == "kergen" || command_type == "kernel_by_cgal") {
-			cout << "Enter the output path (.off): ";		cin >> output_path;		cout << endl;
+			cout << "Enter the output path : ";		cin >> output_path;		cout << endl;
 			
-			cout << "Draw on the Screen? (y/n): ";			cin >> draw_type;		cout << endl;
+			cout << "Draw to the screen? (y/n): ";			cin >> draw_type;		cout << endl;
 		}
 	}
 
@@ -33,7 +33,7 @@ int main()
 
 		cout << "Enter the input folder: ";			cin >> input_folder;		cout << endl;
 		cout << "Enter the output folder: ";		cin >> output_folder;		cout << endl;
-		output_folder += command_type;
+		
 	}
 
 	// Undefined Operation

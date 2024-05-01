@@ -95,6 +95,9 @@ void ComputeBatchKernel(string inputFolderName, string outputFolderName, string 
 	statistics_file_name = "KernelResults_" + algoType + ".txt";
 	extension = "_" + algoType + "_kernel.off";
 
+	if (outputFolderName == "d" || outputFolderName == "D")
+		outputFolderName = inputFolderName;
+
 	double avgTime_star = 0, avgTime_nonstar = 0;
 	int numOfStarShapes = 0, numOfNonStarShapes = 0, numOfNonManifoldShapes = 0;
 	double avgVolDiffPercentage = 0;				// for star-shapes only
