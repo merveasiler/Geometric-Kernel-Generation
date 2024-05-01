@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Externals">
+      <UniqueIdentifier>{ac36832e-5723-40b0-856e-0615d46690a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{c99bf974-00f2-47fb-9509-dd9371dce75e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseGeoOpUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMathOpUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CGALUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicGeometricElements.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicMeshElements.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="KerGen.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelByCGAL.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelComputation.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelExpansion.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshTools.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="shewchuk.c">
+      <Filter>Externals</Filter>
+    </ClCompile>
+    <ClCompile Include="sdlp.cpp">
+      <Filter>Externals</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Painter.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseGeoOpUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMathOpUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CGALUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicGeometricElements.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicMeshElements.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="KerGen.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelByCGAL.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelComputation.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelExpansion.h">
+      <Filter>Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="sdlp.h">
+      <Filter>Externals</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Painter.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
