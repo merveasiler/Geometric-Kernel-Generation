@@ -1,4 +1,4 @@
-This is the source code for our paper "[KerGen: A Kernel Computation Algorithm for 3D Polygon Meshes.]([https://www.sciencedirect.com/science/article/pii/S0097849324000864](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.15137?casa_token=_eP7_NCd66AAAAAA%3AE4Z1ceXiy0IuJzbP_XkhkxPFjgpY2W8W4QqSSrNRM-h0ZLKDpEYF-fBfE6HvQUBY_YiL7UgZnZSXSOs))" <br />
+This is the source code for our paper "[KerGen: A Kernel Computation Algorithm for 3D Polygon Meshes.](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.15137?casa_token=kmFu6GU0D1MAAAAA:cAHFPVDn1rNzVaC_RJP7CvEy1KDO5Srgb407kJNXuqgpIrPJ21ioNk38JFwWx8aEdv0QhG446BDIB4)" <br />
 
 (presented at Eurographics Syposium on Geometry Processing - SGP 2024)
 
